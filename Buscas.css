@@ -14,6 +14,7 @@
     --background-opacit: 0.8;
     --cor1-rgba: 64, 47, 71;
     --cor2: #2a1d2e;
+    --cor3: #e8582c;
 }
 
 h1
@@ -174,9 +175,13 @@ header {
     background-color: var(--cor1);
 }
 
-.Principais_buscas
+.Buscas
 {
     margin-top: 100px;
+}
+
+.Principais_buscas
+{
     height: 200px;
 }
 
@@ -186,31 +191,16 @@ header {
     font-size: 48px;
 }
 
-.cards_buscas
+.Itens-buscas h2
 {
-    height: 400px;
+    color: var(--cor3);
+    font-size: 36px;
 }
 
-.botao
-{   background-color: var(--cor1);
-    text-decoration: none;
-    color: black;
-    border-radius: 20px;
-    padding: 20px;
-    transition: 0.3s;
-    position: relative;
-    bottom: 20px;
-    width: 200px;}
-
-    .botao:hover {
-    color: white;
-    background-color: var(--cor2);
-}
-
-.div_botao
+.h3-buscas
 {
-    width: 100x;
-    height: 300px;
+    margin-left: 70px;
+    color: var(--cor3);
 }
 
 footer 
