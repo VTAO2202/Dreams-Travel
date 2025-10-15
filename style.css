@@ -13,7 +13,7 @@
     --cor1: #fffaed;
     --background-opacit: 0.8;
     --cor1-rgba: 64, 47, 71;
-    --cor2: #2a1d2e;
+    --cor2: #1c5374;
 }
 
 h1
@@ -84,14 +84,6 @@ header {
     }
 }
 
-.mobile-menu-icon {
-    display: none;
-}
-
-.mobile-menu {
-    display: none;
-}
-
 
 .backgound-img-index {
     /*Imagem provisória*/
@@ -137,41 +129,16 @@ header {
     top: 100;
 }
 
-.nome-projeto {
-    width: 100%;
-    height: 25em;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#img-nosso-objetivo
-{
-    background-color: blanchedalmond;
-    height: 1000px;
-    align-items: center;
-}
-
-#Objetivos
-{
-    width: 100%;
-    height: 750px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 .objetivos_fundo
 {
     background-color: var(--cor1);
+    height: 700px;
 }
 
 .Principais_buscas
 {
-    margin-top: 350px;
+    margin-top: 150px;
     height: 200px;
 }
 

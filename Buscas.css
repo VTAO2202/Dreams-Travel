@@ -13,7 +13,7 @@
     --cor1: #fffaed;
     --background-opacit: 0.8;
     --cor1-rgba: 64, 47, 71;
-    --cor2: #2a1d2e;
+    --cor2: #1c5374;
     --cor3: #e8582c;
 }
 
@@ -201,6 +201,20 @@ header {
 {
     margin-left: 70px;
     color: var(--cor3);
+}
+
+.botao
+{
+    background-color: var(--cor3) !important;
+    color: white !important;
+
+}
+
+.botao:hover
+{
+    background-color: var(--cor2) !important;
+    color: white !important;
+
 }
 
 footer 
